@@ -1,0 +1,17 @@
+.postContainer {
+    display: flex;
+    width: 100%;
+    background-color: #f8fcff;
+}
+.sidebar {
+    flex: 1;
+  }
+  
+  .timeline {
+    flex: 9;
+  }
+  
+  .rightbar {
+    flex: 1;
+
+  }

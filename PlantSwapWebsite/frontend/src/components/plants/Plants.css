@@ -1,0 +1,64 @@
+.plant {
+    width: 100%;
+    height: 170px;
+    box-shadow: 3px 7px 13px -10px #65789f;
+    border-radius: 10px;
+}
+
+.plantWrapper {
+    padding: 10px;
+}
+
+.plantTop {
+    display: flex;
+    align-items:center;
+}
+
+.plantProfileImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit:cover;
+    margin-right: 10px;
+}
+
+.plantInput {
+    border:none;
+    width: 100%;
+}
+
+.plantInput:focus {
+    outline: none;
+}
+
+.plantHr {
+    margin: 20px;
+}
+
+.plantButtons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.plantOptions {
+    display: flex;
+    margin-left: 20px;
+}
+
+.plantOption {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.plantIcon {
+    margin-right: 3px;
+}
+.icon {
+    width: 50px;        
+    height: 50px;       
+    border-radius: 50%; 
+    object-fit: cover;  
+  }
